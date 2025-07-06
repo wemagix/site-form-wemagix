@@ -14,10 +14,10 @@ services:
       - key: N8N_PORT
         value: 5678
       - key: WEBHOOK_URL
-        value: https://<seu-app>.onrender.com
+        value: https:/DelvioItaliano.onrender.com
       - key: GENERIC_TIMEZONE
         value: America/Sao_Paulo
       - key: N8N_BASIC_AUTH_USER
-        value: seu_usuario
+        value: Nicoletti
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: sua_senha
+        value: 2BMK7HcMhkRUmY@
