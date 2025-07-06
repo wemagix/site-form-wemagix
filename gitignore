@@ -1,0 +1,50 @@
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Credenciais e chaves
+*.key
+*.pem
+*.crt
+*.pfx
+*.secret
+*.token
+
+# Diretórios comuns de build/output
+node_modules/
+dist/
+build/
+
+# Arquivos temporários ou de log
+*.log
+*.bak
+*.tmp
+*.old
+
+# Pastas de configuração de editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dados locais do n8n (se estiver rodando localmente)
+.n8n/
+
+# Backups ou dumps
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Evita subir arquivos específicos de deploy local
+docker-compose.override.yml
+*.local.js
+
+# Outros arquivos sensíveis
+credentials.json
